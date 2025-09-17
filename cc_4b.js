@@ -1,6 +1,7 @@
 // Coding Challenge 4a
 
-//step 2: 
+//step 2: Create an array of Objects
+
 const products = [
     {sku:"A-001", name:"phone case", category:"electronics",price:25.00,inventory:50 },
     {sku:"B-002", name:"apple", category:"groceries",price:2.00,inventory: 25 },
@@ -9,7 +10,7 @@ const products = [
     {sku:"E-005", name:"earphones", category:"electronics",price:10.00,inventory:15}
 ];
 
-//step 3:
+//step 3: Write a for...of
 
 for (let product of products) {
     let discount = 0;
@@ -33,6 +34,11 @@ for (let product of products) {
 }
 
 console.log(products);
+
+// step 4: Create a variable
+
+
+
 
 
 
