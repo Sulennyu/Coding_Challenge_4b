@@ -11,7 +11,7 @@ const products = [
 
 //step 3:
 
-for (let product in products) {
+for (let product of products) {
     let discount = 0;
 
     switch (product.category) {
@@ -33,6 +33,8 @@ for (let product in products) {
 }
 
 console.log(products);
+
+
 
 
 
